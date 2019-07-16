@@ -12,13 +12,7 @@ body {
 }
 
 /* Header/Logo Title */
-.header {
-  padding: 5px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 20px;
-}
+
 
 /* Page Content */
 .content {padding:20px;}
@@ -70,7 +64,7 @@ body {
   position:fixed;
   bottom:0px;
   width:100%;
-  background-color:#696969;
+  background-color:black;
 
 }
 input[type="submit"] {
@@ -92,7 +86,7 @@ padding:5px;;
 }
 
 .select-selected {
-  background-color: DodgerBlue;
+  background-color:Lightblue;
 }
 
 /*style the arrow inside the select element:*/
@@ -115,7 +109,7 @@ padding:5px;;
 
 /*style the items (options), including the selected item:*/
 .select-items div,.select-selected {
-  color: #ffffff;
+  color:black;
   padding: 8px 16px;
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
@@ -126,7 +120,7 @@ padding:5px;;
 /*style items (options):*/
 .select-items {
   position: absolute;
-  background-color: DodgerBlue;
+  background-color: LightBlue;
   top: 100%;
   left: 0;
   right: 0;
@@ -142,10 +136,10 @@ padding:5px;;
   background-color: rgba(0, 0, 0, 0.1);
 }
 body {
-  background: black;
+  background:white;
 }
 .button {
-  background-color: #004A7F;
+  background-color:green;
   -webkit-border-radius: 10px;
   border-radius: 10px;
   border: none;
@@ -162,42 +156,17 @@ body {
   -o-animation: glowing 1500ms infinite;
   animation: glowing 1500ms infinite;
 }
-@-webkit-keyframes glowing {
-  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
-}
-
-@-moz-keyframes glowing {
-  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
-}
-
-@-o-keyframes glowing {
-  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-}
-
-@keyframes glowing {
-  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
-  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
-}
-
 
 </style>
 </head>
 <body background="C:\Users\Sahithi_Kakkerla\Desktop\epamassignment\epamassignment\bg2.jpg">
 <div class="header">
-  <h1>epam assignment</h1>
-  <p>USER SIDE CLIENT VALIDATION</p>
 </div>
 <div class="navbar">
-  <a href="#" class="active">RDPORTEL</a>
+  <a href="#" class="active"><h2>RDPORTEL</h2></a>
   <a href="#">REPORTS</a>
   <a href="#">Link</a>
+  <a href="#">Admin</a>
  <a href="#" class="right"> <img src="ava.jpg" alt="Avatar" class="avatar"></a>
   <a href="#" class="right">WELCOME  SAHITHI KAKKERLA</a>
 </div>
@@ -206,10 +175,12 @@ body {
 <form name="myform"  method="post" action="https://www.epam.com/" onsubmit="return validateemail();" onsubmit="return matchpass();">  
 <br/>
 <div align="center" height=800px>
+<p align="left"><font color="black" align="left"><left><h1>User Creation</h1></left></font></p>
+<hr width=98%>
 <table width=100% height=80% class="tabfield">
 <tr>
-<td><font color="white"><b>&nbsp;&nbsp;Name:    <b/></font></td>
-<td><font color="white"><b>Email:   </b></font></td>
+<td><font color="black"><b>&nbsp;&nbsp;Name:    <b/></font></td>
+<td><font color="black"><b>Email:   </b></font></td>
 </tr>
 <tr>
 <td>&nbsp;&nbsp;<input type="text" name="fname" required size="35"></td>
@@ -222,14 +193,14 @@ body {
 <td> </td>
 </tr>
 <tr>
-<td><font color="white"><b>&nbsp;&nbsp;Gender:<b/></font></td>
-<td><font color="white"><b>Phone no:<b/></font></td>
+<td><font color="black"><b>&nbsp;&nbsp;Gender:<b/></font></td>
+<td><font color="black"><b>Phone no:<b/></font></td>
 </tr>
 <tr>
 <td>&nbsp;&nbsp;<input type="radio" name="g"
-value="red" checked><font color="white"> male</font>
+value="red" checked><font color="black"> male</font>
 <input type="radio" name="g"
-value="orange"><font color="white"> female</font></td>
+value="orange"><font color="black"> female</font></td>
 <td> <input type="tel" pattern="^\d{10}$" required maxlength="10" size="35"></td>
 </tr>
 <tr>
@@ -240,14 +211,14 @@ value="orange"><font color="white"> female</font></td>
 <td> </td>
 </tr>
 <tr>
-<td><font color="white"><b>&nbsp;&nbsp;Department:<b/></font></td>
-<td><font color="white"><b>Password:<b/></font></td>
-<td><font color="white"><b>Retype pwd:<b/></font></td>
+<td><font color="black"><b>&nbsp;&nbsp;Department:<b/></font></td>
+<td><font color="black"><b>Password:<b/></font></td>
+<td><font color="black"><b>Retype pwd:<b/></font></td>
 </tr>
 <tr>
 <td><div class="custom-select" style="width:250px;">
   <select required>
-  <option value="0">Select domain:</option>
+  <b><option value="0"><b>Select Domain:<b/></option><b/>
   <option value="1">Bigdata</option>
   <option value="2">Testautomation</option>
   <option value="3">java</option>
@@ -359,12 +330,24 @@ then close all select boxes:*/
 document.addEventListener("click", closeAllSelect);
 </script>
 <br/> 
-<button type="submit" class="button">Click me!</button
+<button type="submit" class="button" align="left">Click me!</button>
+<br/>
+<br/>
+ <font color="darkblue"><b>BackToList<b/></font>
 </div>
 </form>
 </div>
 <div class="footer" align="center">
-  <h2><font color="white" size="5"><center>RD-Pre Education version:7.1.026,Node2</center></font></h2>
+  <table width="100%">
+<tr>
+<td>
+  <h3><font color="white">&nbsp;&nbsp;&nbsp;RD-Pre Education version:7.1.026,Node2</font></h3>
+  </td>
+  <td>&nbsp;&nbsp;
+  <h3><font color="white"> HELP</font></h3>
+  </td>
+  </tr>
+  <table>
 </div>
 </body>
 </html>
